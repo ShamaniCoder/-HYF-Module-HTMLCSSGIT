@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+header {
+  display: flex;
+}
+#photo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/mccarthy.png");
+  background-repeat:no-repeat;
+    background-size:100% 100%;
+  
+}
+img {
+  width: 70%;
+  height: 70%;
+  /* border-radius: 50%; */
+
+}
+#identification {
+  background-color: #f2f2f2;
+  width: 75%;
+}
+#info {
+  padding-left: 2%;
+}
+#info h3 {
+  color: #e67953;
+}
+
+.icon {
+  margin-bottom: 2%;
+}
+
+#info hr {
+  width: 25%;
+  margin-left: 0;
+}
+
+#reference hr {
+    width: 60%;
+    margin-left: 0;
+  }
+
+#first {
+  display: flex;
+}
+#reference {
+  width: 25%;
+  height: 35vh;
+  background-color: #264956;
+}
+
+#reference h2 {
+  background-color: #e67953;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#reference ul {
+  color: white;
+  padding: 10%;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.fas {
+  color: #e67953;
+}
+
+#education {
+  width: 75%;
+  height: 35vh;
+  background-color: #f2f2f2;
+
+}
+
+#education h2 {
+  background-color: #d36f4c;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#education ul {
+  padding-left: 5%;
+  font-size: large;
+  line-height: 1.8;
+}
+
+#second {
+  display: flex;
+}
+
+#skills {
+    width: 25%;
+    height: 45vh;
+    background-color: #264956;
+  }
+
+  #skills h2 {
+    background-color: #d36f4c;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #skills ul {
+    color: white;
+    padding: 8%;
+    list-style-type: none;
+    margin-top: 0;
+    line-height: 1.5;
+  }
+
+  #work {
+    width: 75%;
+    height: 45vh;
+    background-color: #f2f2f2;
+  
+  }
+  
+  #work h2 {
+    background-color: #d36f4c;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+ #work p {
+   padding:0 3%;
+ }
+
+ p::first-letter {
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 5px;
+}
+ 
