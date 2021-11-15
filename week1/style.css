@@ -2,6 +2,11 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
+body{
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid;
+}
 header {
   display: flex;
 }
@@ -10,15 +15,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./img/mccarthy.png");
-  background-repeat:no-repeat;
-    background-size:100% 100%;
+ 
   
 }
 img {
-  width: 70%;
-  height: 70%;
-  /* border-radius: 50%; */
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
 
 }
 #identification {
