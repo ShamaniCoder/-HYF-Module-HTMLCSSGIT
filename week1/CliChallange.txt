@@ -3,6 +3,7 @@ Command Line Interface Challenge
 1. 
   a. How do I create a hidden file or folder? 
      - To create a hidden file; use 'touch fileName.fileExtention' command
+     - To create a hidden folder; use 'mkdir fileName.FileExtention' command
 
   b. How do I display it in the CLI? 
      - To display the hidden files; use 'ls -a' command
