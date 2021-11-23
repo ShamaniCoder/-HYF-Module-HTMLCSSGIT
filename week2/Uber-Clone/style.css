@@ -1,0 +1,278 @@
+
+body {
+  box-sizing: border-box;
+  font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+h3 {
+  font-weight: 500;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header__left,
+.header__right {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header--margin > li {
+  margin-right: 1.5rem;
+  font-weight: 400;
+}
+
+.header__left li:first-child a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__right > li > i {
+  margin-right: 0.5rem;
+}
+
+.header__left :first-child {
+  font-size: 24px;
+}
+
+.header__right__signUp {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem;
+}
+.header__right__signUp:hover {
+  background-color: #ccc;
+}
+
+.sectionOne {
+  background-image: url("images/Earner_Home_bg_desktop2x.jfif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-color: #464646;
+  width: 100%;
+  height: 43rem;
+}
+
+.container {
+  background-color: #fff;
+  width: 40%;
+  position: absolute;
+  top: 8rem;
+  left: 9rem;
+}
+.container__top {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 1rem; */
+  border-bottom: 1px solid #ccc;
+}
+
+.container__top--align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__top__first {
+  border-bottom: #000 5px solid;
+}
+
+#wifi {
+  margin: 20px auto 0;
+  width: 50%;
+}
+
+.container__bottom > h2 {
+  font-size: 52px;
+  font-weight: 500;
+}
+
+.container__bottom {
+  padding: 0 3rem 1rem;
+}
+
+.container__bottom > button {
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.container__bottom > p > a {
+  text-decoration: none;
+  color: #000;
+}
+
+#sectionTwo {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png);
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-color: #464646;
+  width: 100%;
+  min-height: 5rem;
+}
+
+.sectionTwo__Text {
+  padding: 2rem 9rem;
+  line-height: 3rem;
+}
+
+.sectionTwo__Text > h2 {
+  font-size: 36px;
+}
+
+#sectionTwo > .sectionTwo__Text a {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+#sectionThree {
+  padding: 2rem 8rem 2rem 9rem;
+}
+
+#sectionThree h2 {
+  font-size: 36px;
+  font-weight: 500;
+
+}
+
+.sectionThree__wrapper {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+#sectionThree .sectionThree__wrapper h3 {
+  font-weight: 400;
+}
+
+#sectionThree .sectionThree__wrapper a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
+
+.sectionThree__bottom{
+    display: flex;
+}
+
+.sectionThree__bottom h3 {
+    font-weight: 500;
+}
+
+.link {
+    color:#000;
+    text-decoration: none;
+    border-bottom: #000 solid 1px;
+    padding-bottom: 6px;
+    
+}
+
+footer{
+  background-color: #000;
+  color: #fff;
+}
+
+footer  ul  li  a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+footer ul {
+  list-style-type: none;
+  width: 25%;
+}
+
+.footer__top {
+  padding: 5rem 4.5rem 0;
+}
+
+.footer__top li{
+  margin-bottom: 3rem;
+}
+
+.footer__top > ul:first-child{
+  font-size: 24px;
+}
+.footer__middle{
+  display: flex;
+  padding-left: 2rem ;
+  line-height: 2;
+}
+
+#uber {
+  font-size: 24px;
+}
+
+.footer__social{
+  display: flex;
+  justify-content: space-;
+  align-items: center;
+  
+}
+.footer__social__app img {
+  width: 138px;
+}
+
+.footer__social__one,
+.footer__social__app{
+  width: 25%;
+  padding-left: 4.5rem;
+}
+.footer__social__one i{
+  margin-right: 3rem;
+}
+.footer__social__two {
+  width: 48%;
+  display: flex;
+  padding-left: 25px;
+  
+}
+
+.footer__social__two li i {
+  margin-right: 0.5rem;
+}
+
+.footer__social__two li{
+margin-right: 2rem;
+}
+
+.footer__bottom{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding-left: 4.5rem;
+  margin-top: 2rem;
+}
+
+.footer__bottom ul{
+display: flex;
+justify-content: space-around;
+
+}
